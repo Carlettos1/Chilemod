@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cross",
+    "textures": {
+        "cross": "chilemod:block/suspiro_lila"
+    }
+}

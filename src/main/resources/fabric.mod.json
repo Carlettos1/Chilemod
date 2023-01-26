@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "chile-mod",
+	"id": "chilemod",
 	"version": "${version}",
 	"name": "Chile Mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -12,20 +12,23 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/chile-mod/icon.png",
+	"icon": "assets/chilemod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"me.carlettos.chilemod.ExampleMod"
+			"me.carlettos.chilemod.ChileMod"
 		],
 		"client": [
-			"me.carlettos.chilemod.ExampleModClient"
+			"me.carlettos.chilemod.ChileModClient"
+		],
+		"terrablender": [
+		    "me.carlettos.chilemod.ChileTB"
 		]
 	},
 	"mixins": [
-		"chile-mod.mixins.json",
+		"chilemod.mixins.json",
 		{
-			"config": "chile-mod.client.mixins.json",
+			"config": "chilemod.client.mixins.json",
 			"environment": "client"
 		}
 	],

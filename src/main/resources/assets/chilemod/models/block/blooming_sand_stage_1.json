@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "chilemod:block/blooming_sand_stage_1"
+    }
+}
